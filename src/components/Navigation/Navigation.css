@@ -1,0 +1,33 @@
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 0;
+  border-width: 2px;
+  line-height: 1.42857;
+}
+
+.btn-pill {
+  width: 150px;
+  height: 60px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  text-align: center;
+  font-size: x-large;
+  line-height: 1.42857;
+  border-width: 2px;
+}
+
+.btn-circle.btn-xl {
+  width: 60px;
+  height: 60px;
+  border-radius: 35px;
+  font-size: 30px;
+  line-height: 1.33;
+}
+
+.btn-pill:hover, .btn-circle:hover {
+  color: #b814f4;
+}
