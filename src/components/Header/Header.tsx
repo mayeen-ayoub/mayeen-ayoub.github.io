@@ -36,7 +36,7 @@ export const Header = () => {
       <article>This is a website about me</article>
     </div>
     <div className="row mt-4">
-      <PillButton text='Resume' link='https://drive.google.com/file/d/1tGY4gKJkRBGLWi8PIl7XqkjW8TpoCz7k/view?usp=sharing' />
+      <PillButton text='Resume' link='https://drive.google.com/file/d/1APv2w_c19pVMDy655ziOJwdfbKLsPTJM/view?usp=sharing' />
       <>{circleBtnsMarkup}</>
     </div>
     </>
