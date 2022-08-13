@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import Basics from './components/Basics/Basics';
-import Navigation from './components/Navigation/Navigation';
+import { Header } from './components/Header';
+import { Projects } from './components/Projects';
 
 const App = () => {
   return (
-    <>
-      <Basics />
-      <Navigation />
-    </>
+    <div className='container'>
+      <Header />
+      {/* <Projects /> */}
+    </div>
   );
 }
 

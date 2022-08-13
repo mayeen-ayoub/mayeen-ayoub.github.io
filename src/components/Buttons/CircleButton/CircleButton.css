@@ -9,17 +9,6 @@
   line-height: 1.42857;
 }
 
-.btn-pill {
-  width: 150px;
-  height: 60px;
-  padding: 10px 16px;
-  border-radius: 35px;
-  text-align: center;
-  font-size: x-large;
-  line-height: 1.42857;
-  border-width: 2px;
-}
-
 .btn-circle.btn-xl {
   width: 60px;
   height: 60px;
@@ -28,6 +17,6 @@
   line-height: 1.33;
 }
 
-.btn-pill:hover, .btn-circle:hover {
+.btn-circle:hover {
   color: #b814f4;
 }

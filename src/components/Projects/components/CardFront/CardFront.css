@@ -1,0 +1,12 @@
+.card {
+  /* position: absolute;
+  width: 246px;
+  height: 274px;
+  left: 168px;
+  top: 748px; */
+  height: 274px;
+
+  background: #FFFFFF;
+  border-radius: 15px;
+  padding: 1rem;
+}

@@ -1,0 +1,14 @@
+.btn-pill {
+  width: 150px;
+  height: 60px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  text-align: center;
+  font-size: x-large;
+  line-height: 1.42857;
+  border-width: 2px;
+}
+
+.btn-pill:hover {
+  color: #b814f4;
+}
