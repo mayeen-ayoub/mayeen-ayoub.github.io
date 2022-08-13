@@ -3,7 +3,6 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import {MdEmail} from 'react-icons/md';
 import {SiDevpost} from 'react-icons/si';
 import { CircleButton, PillButton } from '../Buttons';
-// import Email from './icons/email.svg';
 
 export const Header = () => {
   const circleBtn = [
@@ -25,8 +24,8 @@ export const Header = () => {
     },
   ];
 
-  const circleBtnsMarkup = circleBtn.map((btn) => (
-    <CircleButton icon={btn.icon} link={btn.link} />
+  const circleBtnsMarkup = circleBtn.map((btn, index) => (
+    <CircleButton key={index} icon={btn.icon} link={btn.link} />
   ));
   
   return (
