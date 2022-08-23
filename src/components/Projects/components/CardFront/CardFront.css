@@ -1,16 +1,16 @@
-.card {
-  /* position: absolute;
-  width: 246px;
-  height: 274px;
-  left: 168px;
-  top: 748px; */
-  height: 274px;
+.card-more {
+  /* height: 274px; */
 
-  background: #FFFFFF;
+  /* background: #FFFFFF; */
   border-radius: 15px;
   padding: 0.5rem;
+  /* text-align: center; */
 }
 
-h4 {
-  text-align: center;
+.card-title {
+  font-size: x-large;
+  font-weight: 00;
+  font-size: 27px;
+  line-height: 33px;
+  color: #F04875;
 }

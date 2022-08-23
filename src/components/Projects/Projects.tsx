@@ -23,7 +23,7 @@ export const Projects = () => {
   ));
 
   return (
-    <>
+    <div className='projects'>
       <div className="row mt-5">
         <h3>Projects</h3>
       </div>
@@ -41,6 +41,6 @@ export const Projects = () => {
           <CardFront />
         </div>
       </div>
-    </>
+    </div>
   );
 }
