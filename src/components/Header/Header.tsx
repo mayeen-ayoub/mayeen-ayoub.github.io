@@ -33,7 +33,7 @@ export const Header = () => {
     <>
     <div className='row'>
       <h1>Hi, I'm Mayeen.</h1>
-      <article>This is a website about me</article>
+      <article>Dev Degree Intern @ Shopify | CS @ Carleton</article>
     </div>
     <div className="row mt-4">
       <PillButton text='Resume' link='https://drive.google.com/file/d/1APv2w_c19pVMDy655ziOJwdfbKLsPTJM/view?usp=sharing' />
