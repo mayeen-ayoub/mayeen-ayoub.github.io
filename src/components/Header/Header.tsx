@@ -4,6 +4,7 @@ import {MdEmail} from 'react-icons/md';
 import {SiDevpost} from 'react-icons/si';
 import { CircleButton, PillButton } from '../Buttons';
 
+// TODO: convert icons to local SVGs
 export const Header = () => {
   const circleBtn = [
     {
@@ -40,8 +41,8 @@ export const Header = () => {
       </div>
       <div className='down-arrow'>
         <svg xmlns="http://www.w3.org/2000/svg" width="80" viewBox="0 0 60 56" fill="none">
-          <path d="M17.5 30.3333L30 42L42.5 30.3333" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M17.5 14L30 25.6667L42.5 14" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M17.5 30.3333L30 42L42.5 30.3333" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+          <path d="M17.5 14L30 25.6667L42.5 14" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
         </svg>
       </div>
     </div>

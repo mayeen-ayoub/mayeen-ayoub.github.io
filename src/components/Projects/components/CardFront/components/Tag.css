@@ -1,6 +1,6 @@
 .Tag {
   background: rgba(240, 72, 117, 0.74);
-  text-align: center;
+  text-align: cebter;
   color: white;
   
   display: inline-block;
@@ -14,5 +14,6 @@
   border-radius: 50rem;
   
   margin-left: 0.15em;
-  margin-right: 0.15em;;
+  margin-right: 0.15em;
+  margin-top: 0.5rem;
 }
