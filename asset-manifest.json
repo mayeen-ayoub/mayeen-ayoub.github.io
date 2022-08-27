@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.be4d3750.css",
-    "main.js": "/static/js/main.269e390c.js",
+    "main.css": "/static/css/main.27447c2f.css",
+    "main.js": "/static/js/main.4c8e8442.js",
+    "static/media/nostalgia.jpg": "/static/media/nostalgia.6188a4646f4f18bfd8a7.jpg",
+    "static/media/reading-room.png": "/static/media/reading-room.226140cc1867b53167ef.png",
     "index.html": "/index.html",
-    "main.be4d3750.css.map": "/static/css/main.be4d3750.css.map",
-    "main.269e390c.js.map": "/static/js/main.269e390c.js.map"
+    "main.27447c2f.css.map": "/static/css/main.27447c2f.css.map",
+    "main.4c8e8442.js.map": "/static/js/main.4c8e8442.js.map"
   },
   "entrypoints": [
-    "static/css/main.be4d3750.css",
-    "static/js/main.269e390c.js"
+    "static/css/main.27447c2f.css",
+    "static/js/main.4c8e8442.js"
   ]
 }
