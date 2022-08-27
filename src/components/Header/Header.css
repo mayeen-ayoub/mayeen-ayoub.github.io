@@ -7,3 +7,13 @@ article {
   color: white;
   font-size: xx-large;
 }
+
+.header-main {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.down-arrow {
+  margin-top: 5rem;
+  text-align: center;
+}

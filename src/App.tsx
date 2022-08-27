@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className='container'>
       <Header />
-      {/* <Projects /> */}
+      <Projects />
     </div>
   );
 }

@@ -1,14 +1,16 @@
 h3 {
-  /* position: absolute;
-  width: 187px;
-  height: 48px;
-  left: 164px;
-  top: 700px; */
-
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
   line-height: 48px;
 
   color: #FFFFFF;
+}
+
+.projects {
+  margin-bottom: 20rem;
+}
+
+.card-space {
+  padding-right: 15px;
 }

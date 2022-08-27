@@ -1,0 +1,19 @@
+.Tag {
+  background: rgba(240, 72, 117, 0.74);
+  text-align: cebter;
+  color: white;
+  
+  display: inline-block;
+  padding: 0.35em 0.65em;
+  font-size: 0.85em;
+  font-weight: 400;
+  line-height: 1;
+  
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 50rem;
+  
+  margin-left: 0.15em;
+  margin-right: 0.15em;
+  margin-top: 0.5rem;
+}

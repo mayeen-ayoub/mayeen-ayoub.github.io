@@ -1,0 +1,18 @@
+.btn-circle-2 {
+  width: 40px;
+  height: 40px;
+  padding: 6px 0px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 25px;
+  line-height: 0.5;
+  color: black;
+  border-width: 2px;
+  border-color: black;
+}
+
+.btn-circle-2:hover {
+  color: #F04875;
+  border-color: #F04875;
+  background: rgba(0,0,0,0);
+}
