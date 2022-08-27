@@ -26,3 +26,24 @@
   height: 10rem;
   width: auto;
 }
+
+.awards {
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.back {
+  text-align: left;
+}
+
+.card-subtitle {
+  font-weight: 500;
+  line-height: 18px;
+  margin-top: 1em;
+  margin-bottom: 0.35em;
+  color: #F04875;
+}
+
+.button-center {
+  text-align: center;
+}

@@ -26,8 +26,8 @@ export const Projects = () => {
   const cardsMarkup = projectData.map((project, index) => {
     const {image, title, tags} = project;
     return (
-      <div key={index} className="col">
-        <CardFront image={image} title={title} tags={tags} />
+      <div key={index} className="col card-space">
+        <CardFront project={project} />
       </div>
     );
   });
@@ -41,7 +41,7 @@ export const Projects = () => {
         {filterBtnsMarkup}
       </div>
       <div className="row row-cols-1 row-cols-md-3 g-4 mt-3">
-       {cardsMarkup}
+        {cardsMarkup}
       </div>
     </div>
   );
