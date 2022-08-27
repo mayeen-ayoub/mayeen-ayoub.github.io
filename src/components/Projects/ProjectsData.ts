@@ -27,7 +27,12 @@ export const projectData = [
         link: "https://devpost.com/software/hospital-bot",
       }
     ],
-    hackathon: "HawkHacks"
+    hackathon: "HawkHacks",
+    filters: {
+      hackathon: true,
+      website: true,
+      outreach: false,
+    }
   },
   {
     image: Nostalgia,
@@ -53,7 +58,12 @@ export const projectData = [
         link: "https://devpost.com/software/nostalgia",
       }
     ],
-    hackathon: "MLH Hack With A Crew"
+    hackathon: "MLH Hack With A Crew",
+    filters: {
+      hackathon: true,
+      website: false,
+      outreach: false,
+    }
   },
   {
     image: ReadingRoom,
@@ -76,6 +86,11 @@ export const projectData = [
         link: "https://devpost.com/software/the-reading-room",
       }
     ],
-    hackathon: "MLH Hack With A Crew"
+    hackathon: "MLH Hack With A Crew",
+    filters: {
+      hackathon: true,
+      website: true,
+      outreach: false,
+    }
   },
 ]
