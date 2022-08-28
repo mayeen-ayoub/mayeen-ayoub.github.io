@@ -3,6 +3,7 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import {MdEmail} from 'react-icons/md';
 import {SiDevpost} from 'react-icons/si';
 import { CircleButton, PillButton } from '../Buttons';
+import { motion } from 'framer-motion';
 
 // TODO: convert icons to local SVGs
 export const Header = () => {
@@ -29,6 +30,13 @@ export const Header = () => {
     <CircleButton key={index} icon={btn.icon} link={btn.link} />
   ));
 
+  const downArrow = (
+    <svg xmlns="http://www.w3.org/2000/svg" width="80" viewBox="0 0 60 56" fill="none">
+      <path d="M17.5 30.3333L30 42L42.5 30.3333" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M17.5 14L30 25.6667L42.5 14" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+    </svg>
+  );
+
   return (
     <div className='header-main'>
       <div className='row'>
@@ -39,13 +47,20 @@ export const Header = () => {
         <PillButton text='Resume' link='https://drive.google.com/file/d/1APv2w_c19pVMDy655ziOJwdfbKLsPTJM/view?usp=sharing' />
         <>{circleBtnsMarkup}</>
       </div>
-      {/* TODO: animate the down arrow */}
-      <div className='down-arrow'>
-        <svg xmlns="http://www.w3.org/2000/svg" width="80" viewBox="0 0 60 56" fill="none">
-          <path d="M17.5 30.3333L30 42L42.5 30.3333" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-          <path d="M17.5 14L30 25.6667L42.5 14" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-        </svg>
-      </div>
+      <motion.div
+        animate= {{
+          y: [-10, 10, -10],
+        }}
+        transition={{
+          duration: 2,
+          ease: "easeInOut",
+          times: [0, 0.5, 1],
+          repeat: Infinity,
+        }}
+        className='down-arrow'
+      >
+        {downArrow}
+      </motion.div>
     </div>
   );
 }
