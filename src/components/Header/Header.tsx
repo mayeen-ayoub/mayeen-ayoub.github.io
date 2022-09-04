@@ -3,6 +3,7 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import {MdEmail} from 'react-icons/md';
 import {SiDevpost} from 'react-icons/si';
 import { CircleButton, PillButton } from '../Buttons';
+import { RESUME_LINK } from '../constants';
 import { motion } from 'framer-motion';
 
 // TODO: convert icons to local SVGs
@@ -44,7 +45,7 @@ export const Header = () => {
         <article>Dev Degree Intern @ Shopify | CS @ Carleton</article>
       </div>
       <div className="row mt-4">
-        <PillButton text='Resume' link='https://drive.google.com/file/d/1APv2w_c19pVMDy655ziOJwdfbKLsPTJM/view?usp=sharing' />
+        <PillButton text='Resume' link={RESUME_LINK} />
         <>{circleBtnsMarkup}</>
       </div>
       <motion.div
