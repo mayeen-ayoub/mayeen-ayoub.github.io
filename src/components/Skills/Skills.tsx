@@ -1,5 +1,5 @@
 import CSS from './images/CSS.svg';
-import Express from './images/Express.svg';
+// import Express from './images/Express.svg';
 import Git from './images/Git.svg';
 import GraphQL from './images/GraphQL.svg';
 import HTML from './images/HTML.svg';
@@ -8,12 +8,15 @@ import JavaScript from './images/JS.svg';
 import MongoDB from './images/MongoDB.svg';
 import MySQL from './images/MySQL.svg';
 import NodeJS from './images/NodeJS.svg';
-import Python from './images/GraphQL.svg';
+import Python from './images/python.svg';
 import Rails from './images/Rails.svg';
 import React from './images/React.svg';
-import Twilio from './images/Twilio.svg';
+import CockroachDB from './images/CockroachDB.svg';
+import Ruby from './images/Ruby.svg';
+// import Twilio from './images/Twilio.svg';
 import TypeScript from './images/TypeScript.svg';
 import { motion } from 'framer-motion';
+import './Skills.css';
 
 
 export const Skills = () => {
@@ -23,61 +26,65 @@ export const Skills = () => {
       icon: React,
     },
     {
-      name: 'CSS',
-      icon: CSS,
+      name: 'JavaScript',
+      icon: JavaScript,
     },
     {
-      name: 'Express',
-      icon: Express,
-    },
-    {
-      name: 'Git',
-      icon: Git,
-    },
-    {
-      name: 'GraphQL',
-      icon: GraphQL,
+      name: 'TypeScript',
+      icon: TypeScript,
     },
     {
       name: 'HTML',
       icon: HTML,
     },
     {
-      name: 'Java',
-      icon: Java,
+      name: 'CSS',
+      icon: CSS,
     },
     {
-      name: 'JavaScript',
-      icon: JavaScript,
-    },
-    {
-      name: 'MongoDB',
-      icon: MongoDB,
-    },
-    {
-      name: 'MySQL',
-      icon: MySQL,
+      name: 'GraphQL',
+      icon: GraphQL,
     },
     {
       name: 'NodeJS',
       icon: NodeJS,
     },
     {
+      name: 'MongoDB',
+      icon: MongoDB,
+    },
+    {
       name: 'Python',
       icon: Python,
+    },
+    {
+      name: 'Java',
+      icon: Java,
+    },
+    {
+      name: 'MySQL',
+      icon: MySQL,
+    },
+    {
+      name: 'Git',
+      icon: Git,
+    },
+    {
+      name: 'Ruby',
+      icon: Ruby,
     },
     {
       name: 'Rails',
       icon: Rails,
     },
-    {
-      name: 'Twilio',
-      icon: Twilio,
-    },
-    {
-      name: 'TypeScript',
-      icon: TypeScript,
-    },
+    // {
+    //   name: 'Twilio',
+    //   icon: Twilio,
+    // },
+    // {
+    //   name: 'Express',
+    //   icon: Express,
+    // },
   ];
 
   const skillsMarkup = skills.map((skill, index) => {

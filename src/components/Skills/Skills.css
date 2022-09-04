@@ -6,6 +6,7 @@
   text-align: center;
 }
 
-/* .skills-text {
-  margin-top: 100px;
-} */
+.skills-text {
+  color: white;
+  margin-top: 0.7em;
+}
