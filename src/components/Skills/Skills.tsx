@@ -107,7 +107,7 @@ export const Skills = () => {
       <div className="row">
         <h3>Skills</h3>
       </div>
-      <div className="row row-cols-1 row-cols-md-6 g-4 mt-3">
+      <div className="all-skills row row-cols-1 row-cols-md-6 g-4 mt-3">
         {skillsMarkup}
       </div>
     </div>
