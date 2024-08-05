@@ -8,17 +8,21 @@ export const Projects = () => {
   const [cards, setCards] = useState(projectData);
 
   const hackathonCards = () => {
-    const hackathon = projectData.filter((project) => {
+    setCards(projectData.filter((project) => {
       return project.filters.hackathon;
-    });
-    setCards(hackathon);
+    }));
   }
 
   const websiteCards = () => {
-    const website = projectData.filter((project) => {
+    setCards(projectData.filter((project) => {
       return project.filters.website;
-    });
-    setCards(website);
+    }));
+  }
+  
+  const consoleAppCards = () => {
+    setCards(projectData.filter((project) => {
+      return project.filters.consoleApp;
+    }));
   }
 
   const allCards = () => {
@@ -38,10 +42,10 @@ export const Projects = () => {
       text: 'Website',
       action: websiteCards,
     },
-    // {
-    //   text: 'Outreach',
-    //   action: () => {},
-    // },
+    {
+    text: 'Console App',
+      action: consoleAppCards,
+    },
   ];
 
   const filterBtnsMarkup = filterBtns.map((btn, index) => (
@@ -59,7 +63,7 @@ export const Projects = () => {
 
 
   return (
-    <div className='projects'>
+    <div id="projects" className='projects'>
       <div className="row mt-5">
         <h3>Projects</h3>
       </div>

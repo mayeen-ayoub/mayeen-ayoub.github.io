@@ -20,7 +20,7 @@ interface Props {
       type: string,
       link: string,
     }[],
-    hackathon?: string
+    hackathon?: string | null
   }
 }
 
@@ -77,7 +77,7 @@ export const CardFront = ({project}: Props) => {
       {awardsMarkup}
       <h5 className="card-subtitle">Description</h5>
       <p>{description}</p>
-      <div className='button-center'>
+      <div className='button-center pt-2'>
         {buttonMarkup}
       </div>
     </div>

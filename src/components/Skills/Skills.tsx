@@ -1,5 +1,5 @@
 import CSS from './images/CSS.svg';
-// import Express from './images/Express.svg';
+import Express from './images/Express.svg';
 import Git from './images/Git.svg';
 import GraphQL from './images/GraphQL.svg';
 import HTML from './images/HTML.svg';
@@ -34,6 +34,26 @@ export const Skills = () => {
       icon: TypeScript,
     },
     {
+      name: 'Ruby',
+      icon: Ruby,
+    },
+    {
+      name: 'Rails',
+      icon: Rails,
+    },
+    {
+      name: 'Python',
+      icon: Python,
+    },
+    {
+      name: 'Java',
+      icon: Java,
+    },
+    {
+      name: 'MySQL',
+      icon: MySQL,
+    },
+    {
       name: 'HTML',
       icon: HTML,
     },
@@ -54,56 +74,37 @@ export const Skills = () => {
       icon: MongoDB,
     },
     {
-      name: 'Python',
-      icon: Python,
-    },
-    {
-      name: 'Java',
-      icon: Java,
-    },
-    {
-      name: 'MySQL',
-      icon: MySQL,
-    },
-    {
       name: 'Git',
       icon: Git,
-    },
-    {
-      name: 'Ruby',
-      icon: Ruby,
-    },
-    {
-      name: 'Rails',
-      icon: Rails,
     },
     // {
     //   name: 'Twilio',
     //   icon: Twilio,
     // },
-    // {
-    //   name: 'Express',
-    //   icon: Express,
-    // },
+    {
+      name: 'Express',
+      icon: Express,
+    },
   ];
 
   const skillsMarkup = skills.map((skill, index) => {
     return (
       <div key={index} className='col center'>
-        <motion.img src={skill.icon}
-          whileHover={{ scale: 1.2 }}
-          onHoverStart={ e => {}}
-          onHoverEnd={ e => {}}
-          layout
-        />
-        <br/>
+        <div className="skills-img align-items-center justify-content-center">
+          <motion.img src={skill.icon}
+            whileHover={{ scale: 1.2 }}
+            onHoverStart={ e => {}}
+            onHoverEnd={ e => {}}
+            layout
+          />
+        </div>
         <h6 className='skills-text'>{skill.name}</h6>
       </div>
     );
   });
 
   return (
-    <div className='skills'>
+    <div id="skills" className='skills'>
       <div className="row">
         <h3>Skills</h3>
       </div>

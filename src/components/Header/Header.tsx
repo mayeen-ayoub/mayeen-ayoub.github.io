@@ -4,25 +4,26 @@ import {MdEmail} from 'react-icons/md';
 import {SiDevpost} from 'react-icons/si';
 import { CircleButton, PillButton } from '../Buttons';
 import { motion } from 'framer-motion';
+import { Globals } from '../../global';
 
 // TODO: convert icons to local SVGs
 export const Header = () => {
   const circleBtn = [
     {
       icon: <FaGithub />,
-      link: 'https://github.com/mayeen-ayoub'
+      link: Globals.GITHUB
     },
     {
       icon: <FaLinkedinIn />,
-      link: 'https://www.linkedin.com/in/mayeen-ayoub/'
+      link: Globals.LINKEDIN
     },
     {
       icon: <SiDevpost />,
-      link: 'https://devpost.com/mayeen-ayoub'
+      link: Globals.DEVPOST
     },
     {
       icon: <MdEmail />,
-      link: 'mailto:mayeen.ayoub@gmail.com'
+      link: Globals.MAIL_LINK
     },
   ];
 
@@ -44,7 +45,7 @@ export const Header = () => {
         <article>Dev Degree Intern @ Shopify | CS @ Carleton</article>
       </div>
       <div className="row mt-4">
-        <PillButton text='Resume' link='https://drive.google.com/file/d/1APv2w_c19pVMDy655ziOJwdfbKLsPTJM/view?usp=sharing' />
+        <PillButton text='Resume' link={Globals.RESUME} />
         <>{circleBtnsMarkup}</>
       </div>
       <motion.div

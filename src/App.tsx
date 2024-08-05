@@ -3,14 +3,20 @@ import './App.css';
 import { Header } from './components/Header';
 import { Projects } from './components/Projects';
 import { Skills } from './components/Skills';
+import { ContactMe } from './components/ContactMe';
+import { Navbar } from './components/Navbar';
 
 const App = () => {
   return (
-    <div className='container'>
-      <Header />
-      <Projects />
-      <Skills />
-    </div>
+    <>
+      <Navbar/>
+      <div id="home" className='container'>
+        <Header />
+        <Projects />
+        <Skills />
+        <ContactMe />
+      </div>
+    </>
   );
 }
 
