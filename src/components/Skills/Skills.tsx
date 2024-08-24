@@ -104,11 +104,11 @@ export const Skills = () => {
   });
 
   return (
-    <div id="skills" className='skills'>
+    <div id="skills" className='skills ms-4 me-4'>
       <div className="row">
         <h3>Skills</h3>
       </div>
-      <div className="all-skills row row-cols-1 row-cols-md-6 g-4 mt-3">
+      <div className="all-skills row row-cols-2 row-cols-md-6 g-4 mt-3">
         {skillsMarkup}
       </div>
     </div>

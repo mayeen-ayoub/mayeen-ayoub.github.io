@@ -44,10 +44,9 @@ export const projectData = [
     tags: [
       "Hackathon",
       "JavaScript",
+      "SQL",
       "Node.js",
       "Express.js",
-      "Cockroach DB",
-      "Fabric.js",
     ],
     awards: [
       "Best Hack With The Crew"
@@ -130,7 +129,6 @@ export const projectData = [
       "Console App",
       "PostgreSQL",
       "JavaScript",
-      "chalk.js",
     ],
     description: "A Health and Fitness Club Management System with functionalities for Members, Trainers, and Administrative staff. This app streamlines club operations, enhancing user experience and administrative efficiency.",
     links: [
@@ -166,5 +164,70 @@ export const projectData = [
       website: false,
       consoleApp: true,
     },
-  }
+  },
+  // {
+  //   image: Battleship,
+  //   title: "hEr VOLUTION Coach",
+  //   tags: [
+  //     "Mentorship",
+  //     "Volunteer",
+  //     "Figma",
+  //     "Pitch",
+  //   ],
+  //   description: "Coached high school students in app design and development for hEr VOLUTION's STEMing UP program, offering guidance on refining their ideas, enhancing their Figma designs, and improving their pitch presentations.",
+  //   links: [
+  //     {
+  //       type: "link",
+  //       link: "https://hervolution.org/stemingup",
+  //     },
+  //   ],
+  //   hackathon: null,
+  //   filters: {
+  //     hackathon: false,
+  //     website: false,
+  //     consoleApp: false,
+  //     volunteer: true,
+  //   },
+  // },
+  // {
+  //   image: Battleship,
+  //   title: "CarletonU Summer Matchup Peer Mentor",
+  //   tags: [
+  //     "Outreach",
+  //     "Volunteer",
+  //     "Mentorship",
+  //   ],
+  //   description: "Facilitated incoming freshmen's transition to university by conducting one-on-one meetings to answer questions and leading campus tours at Carleton University.",
+  //   links: [
+  //     {
+  //       type: "link",
+  //       link: "https://sssc.carleton.ca/summermatchup",
+  //     },
+  //   ],
+  //   hackathon: null,
+  //   filters: {
+  //     hackathon: false,
+  //     website: false,
+  //     consoleApp: false,
+  //     volunteer: true,
+  //   },
+  // },
+  // {
+  //   image: Battleship,
+  //   title: "WiSTEM Python Workshop",
+  //   tags: [
+  //     "Outreach",
+  //     "Volunteer",
+  //     "Mentorship",
+  //   ],
+  //   description: "Organized and led a Python workshop for high school girls in Women in STEM Ottawa, including a Madlibs project, providing hands-on coding exercises and mentorship to enhance their programming skills.",
+  //   links: [],
+  //   hackathon: null,
+  //   filters: {
+  //     hackathon: false,
+  //     website: false,
+  //     consoleApp: false,
+  //     volunteer: true,
+  //   },
+  // }
 ]

@@ -21,10 +21,10 @@ export const CustomNavbar = () => {
                 Resume
               </NavDropdown.Item>
 							<NavDropdown.Divider />
+              <NavDropdown.Item href={Globals.MAIL_LINK}>Email</NavDropdown.Item>  
+              <NavDropdown.Item href={Globals.LINKEDIN}>Linkedin</NavDropdown.Item>
 							<NavDropdown.Item href={Globals.GITHUB}>Github</NavDropdown.Item>
-							<NavDropdown.Item href={Globals.LINKEDIN}>Linkedin</NavDropdown.Item>
-							<NavDropdown.Item href={Globals.DEVPOST}>Devpost</NavDropdown.Item>
-							<NavDropdown.Item href={Globals.MAIL_LINK}>Email</NavDropdown.Item>              
+							<NavDropdown.Item href={Globals.DEVPOST}>Devpost</NavDropdown.Item>            
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

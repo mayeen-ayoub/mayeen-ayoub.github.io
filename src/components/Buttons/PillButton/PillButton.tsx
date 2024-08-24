@@ -1,12 +1,14 @@
 import './PillButton.css';
+import classNames from 'classnames';
 
 interface Props {
   text: string,
   link?: string,
+  isFullWidth?: boolean,
   action?: () => void,
 }
 
-export const PillButton = ({text, link, action}: Props) => {
+export const PillButton = ({text, link, isFullWidth, action}: Props) => {
   return (
     link 
     ? <a 
@@ -16,7 +18,10 @@ export const PillButton = ({text, link, action}: Props) => {
       >
         <>{text}</>
       </a>
-    : <button onClick={action} className="btn btn-outline-light btn-pill btn-xl ms-2 me-2 fw-bold">
+    : <button 
+        onClick={action} 
+        className={classNames("btn btn-outline-light btn-pill btn-xl ms-2 me-2 fw-bold", {"full-btn": isFullWidth})}
+      >
         {text}
       </button>
   );

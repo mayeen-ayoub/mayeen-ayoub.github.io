@@ -4,7 +4,11 @@ import { projectData } from './ProjectsData';
 import './Projects.css';
 import { useState } from 'react';
 
-export const Projects = () => {
+interface ProjectProps {
+  isMobile: boolean
+}
+
+export const Projects = ({isMobile}: ProjectProps) => {
   const [cards, setCards] = useState(projectData);
 
   const hackathonCards = () => {
@@ -49,7 +53,7 @@ export const Projects = () => {
   ];
 
   const filterBtnsMarkup = filterBtns.map((btn, index) => (
-    <PillButton key={index} text={btn.text} action={btn.action}/>
+    <PillButton key={index} text={btn.text} action={btn.action} isFullWidth={isMobile}/>
   ));
 
   const cardsMarkup = cards.map((project, index) => {
@@ -63,14 +67,14 @@ export const Projects = () => {
 
 
   return (
-    <div id="projects" className='projects'>
+    <div id="projects" className='projects ms-4 me-4'>
       <div className="row mt-5">
         <h3>Projects</h3>
       </div>
       <div className="row mt-2">
         {filterBtnsMarkup}
       </div>
-      <div className="row row-cols-1 row-cols-md-3 g-4 mt-3">
+      <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-3">
         {cardsMarkup}
       </div>
     </div>

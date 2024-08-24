@@ -17,3 +17,14 @@ article {
   margin-top: 5rem;
   text-align: center;
 }
+
+/* MOBILE STYLING */
+.mobile-h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.mobile-article {
+  color: white;
+  font-size: x-large;
+}
