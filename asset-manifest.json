@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9cb2daae.css",
-    "main.js": "/static/js/main.fd6f6d36.js",
+    "main.css": "/static/css/main.d1d8ca7c.css",
+    "main.js": "/static/js/main.95411c28.js",
     "static/media/nostalgia.jpg": "/static/media/nostalgia.6188a4646f4f18bfd8a7.jpg",
     "static/media/website.png": "/static/media/website.145d6a0ce07ad820a1af.png",
     "static/media/gym.png": "/static/media/gym.6899307f28777beb177d.png",
@@ -24,11 +24,11 @@
     "static/media/CSS.svg": "/static/media/CSS.bf0a81ef3a94b05c1045f9e29cba9593.svg",
     "static/media/HTML.svg": "/static/media/HTML.72e66f67e8e5ffc77124515a3ecac5f6.svg",
     "static/media/Sun.svg": "/static/media/Sun.4f2dc4b41451fea2bc00ee0597611ff8.svg",
-    "main.9cb2daae.css.map": "/static/css/main.9cb2daae.css.map",
-    "main.fd6f6d36.js.map": "/static/js/main.fd6f6d36.js.map"
+    "main.d1d8ca7c.css.map": "/static/css/main.d1d8ca7c.css.map",
+    "main.95411c28.js.map": "/static/js/main.95411c28.js.map"
   },
   "entrypoints": [
-    "static/css/main.9cb2daae.css",
-    "static/js/main.fd6f6d36.js"
+    "static/css/main.d1d8ca7c.css",
+    "static/js/main.95411c28.js"
   ]
 }
