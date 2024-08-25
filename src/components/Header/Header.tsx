@@ -66,7 +66,7 @@ export const Header = ({isMobile}: HeaderProps) => {
         <article className='mobile-article ms-2'>
           Dev Degree Intern @ Shopify
           <br/>
-          Computer Science @ Carleton
+          Comp. Sci. @ Carleton
         </article>
       </div>
       <div className="row ms-1 mt-3">

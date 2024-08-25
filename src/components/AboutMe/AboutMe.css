@@ -2,15 +2,18 @@
 	color: white;
 }
 
-.card-custom {
-  opacity: 0.3; /* 30% opacity */
-  background-color: #fff; /* White background */
-  border-radius: 15px; /* Rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
-  width: 200px; /* Fixed width */
-  height: 200px; /* Fixed height to make it square */
-  margin: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.card-opacity {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.am-card-title {
+  font-size: x-large;
+  font-weight: 00;
+  font-size: 27px;
+  line-height: 33px;
+  color: white;
+}
+
+.card-text {
+	color: white;
 }
